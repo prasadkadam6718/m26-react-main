@@ -7,6 +7,7 @@ import UseStateEx4 from './UseStateEx4'
 
 import UseStateExample5 from './UseStateExample5'
 import UseStateEx6 from './UseStateEx6'
+import UseStateEx7 from './UseStateEx7';
 
 const UseStateIntro = () => {
   return (
@@ -16,7 +17,8 @@ const UseStateIntro = () => {
       {/* <UseStateEx3 /> */}
       {/* <UseStateEx4 /> */}
       {/* <UseStateExample5 /> */}
-      <UseStateEx6 />
+      {/* <UseStateEx6 /> */}
+      <UseStateEx7 />
       {/* <JsxExpression /> */}
     </div>
   )
