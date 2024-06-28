@@ -4,6 +4,7 @@ import Layout2 from "./components/Layout/Layout2"
 import InlineCss from './components/howToUseInlineCss/InlineCss'
 import TailwindIntro from './components/howToUseTailwind/TailwindIntro'
 import UseStateIntro from './components/UseStateHook/UseStateIntro'
+import ClassBasedIntro from "./components/classBasedComp/ClassBasedIntro"
 const App = () => {
   return (
     <div>
@@ -31,8 +32,11 @@ const App = () => {
 
 
       {/* useState hook */}
-      <div>
+      {/* <div>
         <UseStateIntro />
+      </div> */}
+      <div>
+        <ClassBasedIntro />
       </div>
     </div>
   )
