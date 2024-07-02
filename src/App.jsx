@@ -5,6 +5,8 @@ import InlineCss from './components/howToUseInlineCss/InlineCss'
 import TailwindIntro from './components/howToUseTailwind/TailwindIntro'
 import UseStateIntro from './components/UseStateHook/UseStateIntro'
 import ClassBasedIntro from "./components/classBasedComp/ClassBasedIntro"
+
+import PropsIntro from './components/props/PropsIntro'
 const App = () => {
   return (
     <div>
@@ -35,9 +37,19 @@ const App = () => {
       {/* <div>
         <UseStateIntro />
       </div> */}
-      <div>
+
+      {/* classbasedComponet */}
+      {/* <div>
         <ClassBasedIntro />
+      </div> */}
+
+
+      {/* props in react */}
+      <div>
+        <PropsIntro />
       </div>
+
+
     </div>
   )
 }
