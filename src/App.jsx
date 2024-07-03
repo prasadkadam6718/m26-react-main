@@ -7,6 +7,7 @@ import UseStateIntro from './components/UseStateHook/UseStateIntro'
 import ClassBasedIntro from "./components/classBasedComp/ClassBasedIntro"
 
 import PropsIntro from './components/props/PropsIntro'
+import ConditionalRenderingIntro from './components/conditionalrendering/ConditionalRenderingIntro';
 const App = () => {
   return (
     <div>
@@ -45,8 +46,13 @@ const App = () => {
 
 
       {/* props in react */}
-      <div>
+      {/* <div>
         <PropsIntro />
+      </div> */}
+
+      {/* conditional rendering */}
+      <div>
+        <ConditionalRenderingIntro />
       </div>
 
 
