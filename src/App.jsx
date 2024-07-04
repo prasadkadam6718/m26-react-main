@@ -8,6 +8,8 @@ import ClassBasedIntro from "./components/classBasedComp/ClassBasedIntro"
 
 import PropsIntro from './components/props/PropsIntro'
 import ConditionalRenderingIntro from './components/conditionalrendering/ConditionalRenderingIntro';
+import MapIntro from './components/map/MapIntro'
+import RandomComponent from './components/ContextApi/RandomComponent';
 const App = () => {
   return (
     <div>
@@ -51,10 +53,18 @@ const App = () => {
       </div> */}
 
       {/* conditional rendering */}
-      <div>
+      {/* <div>
         <ConditionalRenderingIntro />
-      </div>
+      </div> */}
 
+      {/* map */}
+      {/* <div>
+        <MapIntro />
+      </div> */}
+
+      <div>
+        <RandomComponent />
+      </div>
 
     </div>
   )
