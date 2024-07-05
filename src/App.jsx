@@ -10,6 +10,7 @@ import PropsIntro from './components/props/PropsIntro'
 import ConditionalRenderingIntro from './components/conditionalrendering/ConditionalRenderingIntro';
 import MapIntro from './components/map/MapIntro'
 import RandomComponent from './components/ContextApi/RandomComponent';
+import EventsIntro from './components/synthetic Events/EventsIntro'
 const App = () => {
   return (
     <div>
@@ -62,10 +63,15 @@ const App = () => {
         <MapIntro />
       </div> */}
 
-      <div>
+      {/* <div>
         <RandomComponent />
-      </div>
+      </div> */}
 
+
+      {/* Synthetic Events */}
+      <div>
+        <EventsIntro></EventsIntro>
+      </div>
     </div>
   )
 }
