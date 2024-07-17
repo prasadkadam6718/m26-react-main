@@ -11,6 +11,7 @@ import ConditionalRenderingIntro from './components/conditionalrendering/Conditi
 import MapIntro from './components/map/MapIntro'
 import RandomComponent from './components/ContextApi/RandomComponent';
 import EventsIntro from './components/synthetic Events/EventsIntro'
+import HmrIntr from './components/hmr/HmrIntr'
 const App = () => {
   return (
     <div>
@@ -69,8 +70,11 @@ const App = () => {
 
 
       {/* Synthetic Events */}
-      <div>
+      {/* <div>
         <EventsIntro></EventsIntro>
+      </div> */}
+      <div>
+        <HmrIntr />
       </div>
     </div>
   )
