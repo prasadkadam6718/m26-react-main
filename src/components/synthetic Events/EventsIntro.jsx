@@ -8,6 +8,8 @@ import EventsEx6 from './EventsEx6';
 import EventsEx7 from './EventsEx7';
 import EventsEx8 from './EventsEx8';
 import EventsEx9 from './EventsEx9';
+import EventsEx10 from './EventsEx10';
+import EventsEx11 from './EventsEx11';
 
 const EventsIntro = () => {
   return (
@@ -20,7 +22,9 @@ const EventsIntro = () => {
       {/* <EventsEx6 /> */}
       {/* <EventsEx7 /> */}
       {/* <EventsEx8 /> */}
-      <EventsEx9 />
+      {/* <EventsEx9 /> */}
+      {/* <EventsEx10 /> */}
+      <EventsEx11 />
     </div>
   )
 }

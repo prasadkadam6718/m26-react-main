@@ -70,12 +70,12 @@ const App = () => {
 
 
       {/* Synthetic Events */}
-      {/* <div>
-        <EventsIntro></EventsIntro>
-      </div> */}
       <div>
-        <HmrIntr />
+        <EventsIntro></EventsIntro>
       </div>
+      {/* <div>
+        <HmrIntr />
+      </div> */}
     </div>
   )
 }
