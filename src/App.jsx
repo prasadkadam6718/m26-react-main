@@ -12,6 +12,7 @@ import MapIntro from './components/map/MapIntro'
 import RandomComponent from './components/ContextApi/RandomComponent';
 import EventsIntro from './components/synthetic Events/EventsIntro'
 import HmrIntr from './components/hmr/HmrIntr'
+import UseEffectInto from './components/useEffectHook/UseEffectInto'
 const App = () => {
   return (
     <div>
@@ -70,12 +71,16 @@ const App = () => {
 
 
       {/* Synthetic Events */}
-      <div>
+      {/* <div>
         <EventsIntro></EventsIntro>
-      </div>
+      </div> */}
       {/* <div>
         <HmrIntr />
       </div> */}
+
+      <div>
+        <UseEffectInto></UseEffectInto>
+      </div>
     </div>
   )
 }
