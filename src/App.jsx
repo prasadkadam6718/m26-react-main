@@ -13,6 +13,10 @@ import RandomComponent from './components/ContextApi/RandomComponent';
 import EventsIntro from './components/synthetic Events/EventsIntro'
 import HmrIntr from './components/hmr/HmrIntr'
 import UseEffectInto from './components/useEffectHook/UseEffectInto'
+import UseMemoIntro from './components/useMemo hook/UseMemoIntro'
+import HocIntro from './components/hoc/HocIntro'
+import UseReducerEx1 from './components/useReducer hook/UseReducerEx1';
+import UseRedicerIntro from './components/useReducer hook/UseRedicerIntro'
 const App = () => {
   return (
     <div>
@@ -78,8 +82,17 @@ const App = () => {
         <HmrIntr />
       </div> */}
 
-      <div>
+      {/* <div>
         <UseEffectInto></UseEffectInto>
+      </div> */}
+      {/* <div>
+        <UseMemoIntro />
+      </div> */}
+      {/* <div>
+        <HocIntro />
+      </div> */}
+      <div>
+        <UseRedicerIntro />
       </div>
     </div>
   )
