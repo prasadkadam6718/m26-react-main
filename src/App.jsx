@@ -17,6 +17,9 @@ import UseMemoIntro from './components/useMemo hook/UseMemoIntro'
 import HocIntro from './components/hoc/HocIntro'
 import UseReducerEx1 from './components/useReducer hook/UseReducerEx1';
 import UseRedicerIntro from './components/useReducer hook/UseRedicerIntro'
+import { RouterProvider } from 'react-router-dom'
+import { router } from "./components/routing/AppRoutes"
+
 const App = () => {
   return (
     <div>
@@ -91,9 +94,13 @@ const App = () => {
       {/* <div>
         <HocIntro />
       </div> */}
-      <div>
+      {/* <div>
         <UseRedicerIntro />
+      </div> */}
+      <div>
+        <RouterProvider router={router}></RouterProvider>
       </div>
+
     </div>
   )
 }
